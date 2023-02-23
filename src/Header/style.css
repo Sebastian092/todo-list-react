@@ -1,0 +1,14 @@
+.section__header {
+    padding: 15px;
+    border-bottom: 2px solid whitesmoke;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: space-around;
+    gap: 50px;
+}
+
+@media (max-width: 791px) {
+    .section__header {
+        grid-template-columns: 1fr;
+    }
+}
