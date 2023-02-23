@@ -6,8 +6,8 @@
 .task__button {
     border: none;
     color: white;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     transition: 1s;
     margin: 0;
 }
@@ -30,17 +30,17 @@
 
 .task__button--delete {
     border: none;
-    background: rgb(152, 2, 2);
-    width: 35px;
-    height: 35px;
+    background: rgb(232, 4, 4);
+    width: 30px;
+    height: 30px;
 }
 
 .task__button--delete:hover {
-    background: rgb(211, 53, 53);
+    background: rgb(232, 4, 3);
 }
 
 .task__button--delete:active {  
-    background: rgb(246, 77, 77);
+    background: rgb(232, 4, 2);
 }
 
 .tasks__button--hidden {
@@ -52,6 +52,6 @@
     grid-template-columns: auto 1fr auto;
     gap: 10px;
     align-items: center;
-    border-bottom: solid 1px whitesmoke;
-    padding: 5px 0;
+    border-bottom: solid 2px rgb(229, 227, 227);;
+    padding: 5px 10px;
 }
