@@ -3,7 +3,7 @@
     padding: 5px 15px;
 }
 
-.task__button {
+.tasks__button {
     border: none;
     color: white;
     width: 30px;
@@ -12,42 +12,42 @@
     margin: 0;
 }
 
-.task__button--done {
+.tasks__button--done {
     background: green;
 }
 
-.task__button--done:hover {
+.tasks__button--done:hover {
     background: rgb(2, 181, 2);
 }
 
-.task__button--done:active {
+.tasks__button--done:active {
     background: rgb(4, 239, 4);
 }
 
-.task__content--done {
+.tasks__content--done {
     text-decoration: line-through;
 }
 
-.task__button--delete {
+.tasks__button--delete {
     border: none;
     background: rgb(232, 4, 4);
     width: 30px;
     height: 30px;
 }
 
-.task__button--delete:hover {
+.tasks__button--delete:hover {
     background: rgb(232, 4, 3);
 }
 
-.task__button--delete:active {  
+.tasks__button--delete:active {  
     background: rgb(232, 4, 2);
 }
 
-.tasks__button--hidden {
+.tasks__item--hidden {
     display: none;
 }
 
-.task__item {
+.tasks__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
     gap: 10px;
