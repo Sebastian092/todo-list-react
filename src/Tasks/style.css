@@ -3,6 +3,23 @@
     padding: 5px 15px;
 }
 
+.tasks__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 10px;
+    align-items: center;
+    border-bottom: solid 2px rgb(229, 227, 227);;
+    padding: 5px 10px;
+}
+
+.tasks__item--hidden {
+    display: none;
+}
+
+.tasks__content--done {
+    text-decoration: line-through;
+}
+
 .tasks__button {
     border: none;
     color: white;
@@ -24,10 +41,6 @@
     background: rgb(4, 239, 4);
 }
 
-.tasks__content--done {
-    text-decoration: line-through;
-}
-
 .tasks__button--delete {
     border: none;
     background: rgb(232, 4, 4);
@@ -41,17 +54,4 @@
 
 .tasks__button--delete:active {  
     background: rgb(232, 4, 2);
-}
-
-.tasks__item--hidden {
-    display: none;
-}
-
-.tasks__item {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 10px;
-    align-items: center;
-    border-bottom: solid 2px rgb(229, 227, 227);;
-    padding: 5px 10px;
 }
