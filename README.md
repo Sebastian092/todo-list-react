@@ -3,7 +3,7 @@
 To do list where you can add new tasks and also delete them when finished
 
 ## How this work
-![to do list](https://user-images.githubusercontent.com/120946080/211402643-3b370a61-f570-4899-b14b-bef0c5c18ee9.gif)
+![to do list](https://user-images.githubusercontent.com/120946080/222530153-8908346e-d4aa-4976-842e-7295012c70a2.gif)
 
 #### Technologies:
  - React.js
