@@ -18,6 +18,7 @@
 @media (max-width: 791px) {
     .form__button {
         padding: 10px;
+        min-width: auto;
     }
 }
 
