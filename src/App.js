@@ -49,14 +49,14 @@ function App() {
 
   return (
     <Container>
-      <Header title="Lista zadań" />
+      <Header title="To-do list" />
       <Section
-        title="Dodaj nowe zadanie"
+        title="Add a new task"
         body={<Form addNewTask={addNewTask} />}
       />
 
       <Section
-        title="Lista zadań"
+        title="To-do list"
         body={<Tasks
           tasks={tasks}
           hideDone={hideDone}
