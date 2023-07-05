@@ -1,7 +1,8 @@
-import "./style.css"
+
+import {SectionBody} from "./styled"
 
 const Section = ({ title, body, extraHeaderContent }) => (
- <section className="section">
+ <SectionBody>
     <header className="section__header">
         <h2 className="section__title"> {title}</h2>
         {extraHeaderContent}
@@ -9,7 +10,7 @@ const Section = ({ title, body, extraHeaderContent }) => (
     <div className="section__body">
         {body}
     </div>
- </section>
+ </SectionBody>
 );
 
 export default Section;
