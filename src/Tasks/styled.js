@@ -35,14 +35,14 @@ export const Button = styled.button`
     ${({ toggleDone }) => toggleDone && css`
         background: green;
 
-            &:hover {
-            background: rgb(2, 181, 2);
-            }
+        &:hover {
+        background: rgb(2, 181, 2);
+        }
 
-            &:active {
-            background: rgb(4, 239, 4); 
-            }
-            `}
+        &:active {
+        background: rgb(4, 239, 4); 
+        }
+        `}
 
         ${({ remove }) => remove && css`
         border: none;
@@ -51,12 +51,12 @@ export const Button = styled.button`
         height: 30px;
     
 
-            &:hover {
-            background: rgb(255, 0, 0);
-            }
+        &:hover {
+        background: rgb(255, 0, 0);
+        }
 
-            &:active {
-            background: rgb(255, 6, 1); 
-            }
+        &:active {
+        background: rgb(255, 6, 1); 
+        }
     `}
 `;
