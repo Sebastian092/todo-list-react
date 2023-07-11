@@ -25,7 +25,7 @@ const Form = ({ addNewTask }) => {
   return (
     <FormSection onSubmit={onFormSubmit}>
       <Input
-      ref={inputRef}
+        ref={inputRef}
         id="form"
         value={newTaskContent}
         type="text"
@@ -33,7 +33,7 @@ const Form = ({ addNewTask }) => {
         onChange={({ target }) => setNewTaskContent(target.value)}
       />
       <Button
-      onClick={fokusInput}
+        onClick={fokusInput}
       >
         Add a task
       </Button>
