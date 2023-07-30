@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Head = styled.header`
+export const MainHead = styled.header`
     padding: 0 20px;
     border-bottom: 2px solid rgb(229, 227, 227);
     display: grid;
