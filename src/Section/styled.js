@@ -7,6 +7,6 @@ export const SectionBody = styled.section`
     margin: 10px 0px;
 `; 
 
-export const SectionHeader = styled.header`
+export const SectionComponents = styled.header`
 border-bottom: 2px solid rgb(229, 227, 227);
 `
