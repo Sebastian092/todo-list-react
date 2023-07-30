@@ -13,13 +13,13 @@ export const Item = styled.li`
     border-bottom: solid 2px rgb(229, 227, 227);;
     padding:5px 10px;
 
-    ${({ hidden }) => hidden && css`
+    ${({ $hidden }) => $hidden && css`
     display: none;
     `}
 `;
 
 export const Content = styled.span`
-    ${({ done }) => done && css`
+    ${({ $done }) => $done && css`
     text-decoration: line-through;
     `}
 `;
