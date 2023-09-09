@@ -17,7 +17,7 @@ const Form = ({ addNewTask }) => {
     if (trimmedNewTaskContent !== "") {
       addNewTask(trimmedNewTaskContent);
     }
-    
+
     setNewTaskContent("");
   };
 
