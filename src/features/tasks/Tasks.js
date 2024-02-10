@@ -9,12 +9,9 @@ import { useSelector } from "react-redux";
 import { selectTasks } from "../tasksSlice";
 
 function Tasks() {
-
   const { tasks } = useSelector(selectTasks);
 
   const {
-    hideDone,
-    toggleHideDone,
     removeTask,
     toggleTaskDone,
     setAllDone,
@@ -32,17 +29,12 @@ function Tasks() {
       <Section
         title="To-do list"
         body={<TasksList
-          tasks={tasks}
-          hideDone={hideDone}
           removeTask={removeTask}
           toggleTaskDone={toggleTaskDone}
         />
         }
         extraHeaderContent={
           <Buttons
-            toggleHideDone={toggleHideDone}
-            tasks={tasks}
-            hideDone={hideDone}
             setAllDone={setAllDone}
           />
         }

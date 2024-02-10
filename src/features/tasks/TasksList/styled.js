@@ -11,7 +11,7 @@ export const Item = styled.li`
     gap: 10px;
     align-items: center;
     border-bottom: solid 2px rgb(229, 227, 227);;
-    padding:5px 10px;
+    padding: 5px 10px;
 
     ${({ $hidden }) => $hidden && css`
     display: none;
@@ -53,7 +53,7 @@ export const RemoveButton = styled(Button)`
         filter: brightness(120%)
         }
 
-        &:active {
-            filter: brightness(130%)
+    &:active {
+        filter: brightness(130%)
         }
 `;
