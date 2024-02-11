@@ -18,7 +18,7 @@ export const Button = styled.button`
     }
 
     &:disabled {
-    color: ${({ theme }) => theme.colors.gray};
+    color: ${({theme}) => theme.colors.gray};
     }
 `
 export const TaskButtons = styled.div`

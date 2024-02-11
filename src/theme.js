@@ -3,7 +3,7 @@ export const theme = {
     {
         teal: "#008080",
         white: "#FFFFFF",
-        gray: "d5d2d2",
+        gray: "#696969",
     },
     breakpoints:
     {
