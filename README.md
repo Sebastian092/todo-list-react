@@ -7,12 +7,14 @@ To do list where you can add new tasks and also delete them when finished
 
 #### Technologies:
  - React.js
+ - Redux
+ - Styled Components
  - JS (ES6)
  - HTML
  - CSS
 
 ### Link to page
-https://sebastian092.github.io/todo-list-react/
+[https://sebastian092.github.io/todo-list-react/](https://sebastian092.github.io/todo-list-react/)
 
 #### Creator 
 Sebastian Szaładyga
