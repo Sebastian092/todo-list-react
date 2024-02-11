@@ -14,7 +14,7 @@ To do list where you can add new tasks and also delete them when finished
  - CSS
 
 ### Link to page
-[https://sebastian092.github.io/todo-list-react/](https://sebastian092.github.io/todo-list-react/)
+https://sebastian092.github.io/todo-list-react/
 
 #### Creator 
 Sebastian Szaładyga
