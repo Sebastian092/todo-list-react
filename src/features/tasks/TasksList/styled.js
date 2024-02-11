@@ -10,7 +10,7 @@ export const Item = styled.li`
     grid-template-columns: auto 1fr auto;
     gap: 10px;
     align-items: center;
-    border-bottom: solid 2px rgb(229, 227, 227);;
+    border-bottom: solid 2px rgb(229, 227, 227);
     padding: 5px 10px;
 
     ${({ $hidden }) => $hidden && css`

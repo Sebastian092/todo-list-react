@@ -8,5 +8,5 @@ export const SectionBody = styled.section`
 `; 
 
 export const SectionComponents = styled.header`
-border-bottom: 2px solid rgb(229, 227, 227);
+
 `
