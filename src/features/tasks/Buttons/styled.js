@@ -28,7 +28,7 @@ export const TaskButtons = styled.div`
     justify-content: flex-end;
     
 
-    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     flex-flow: column wrap;
     }
 `

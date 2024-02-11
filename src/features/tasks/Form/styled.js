@@ -16,7 +16,7 @@ export const Button = styled.button`
     transform: scale(1.15);
     }
 
-    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
         padding: 10px;
         min-width: auto;
     }
@@ -29,7 +29,7 @@ export const FormSection = styled.form`
     padding: 10px;
     margin: 5px;
 
-    @media (max-width:${({ theme }) => theme.breakpoints.mobile}) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     grid-template-columns: 1fr;
     }
 `
