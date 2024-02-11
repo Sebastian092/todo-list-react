@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Button = styled.button`
     border: none;
-    background: teal;
-    color: white;
+    background: ${({ theme }) => theme.colors.teal};
+    color: ${({ theme }) => theme.colors.white};
     transition: 1s;
 
     &:hover { 
@@ -16,7 +16,7 @@ export const Button = styled.button`
     transform: scale(1.15);
     }
 
-    @media (max-width: 791px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         padding: 10px;
         min-width: auto;
     }
@@ -29,7 +29,7 @@ export const FormSection = styled.form`
     padding: 10px;
     margin: 5px;
 
-    @media (max-width: 791px) {
+    @media (max-width:${({ theme }) => theme.breakpoints.mobile}) {
     grid-template-columns: 1fr;
     }
 `

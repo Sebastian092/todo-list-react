@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Button = styled.button`
     background: transparent;
     border: none;
-    color: teal;
+    color: ${({ theme }) => theme.colors.teal};
     transition: color 1s;
     font-size: 1em;
     transition: 0.5s;
@@ -17,7 +17,7 @@ export const Button = styled.button`
     }
 
     &:disabled {
-    color: rgb(219, 218, 218);
+    color: ${({ theme }) => theme.colors.gray};
     }
 `
 export const TaskButtons = styled.div`
@@ -27,7 +27,7 @@ export const TaskButtons = styled.div`
     justify-content: flex-end;
 
 
-    @media (max-width: 791px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     flex-flow: column wrap;
     }
 `
