@@ -19,9 +19,7 @@ https://sebastian092.github.io/todo-list-react/
 #### Creator 
 Sebastian Szaładyga
 
-
 ![Alt text](public/Sebastian2.jpg)
-
 
 #### Link to my github
 https://github.com/Sebastian092

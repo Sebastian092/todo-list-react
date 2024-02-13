@@ -8,8 +8,6 @@ import { useSelector } from "react-redux";
 import { selectTasks } from "../tasksSlice";
 
 function Tasks() {
-  const { tasks } = useSelector(selectTasks);
-
   return (
     <Container>
       <Header title="To-do list" />
