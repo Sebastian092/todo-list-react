@@ -4,8 +4,6 @@ import Buttons from "./Buttons";
 import Section from "../../common/Section";
 import Header from "../../common/Header";
 import Container from "../../common/Container";
-import { useSelector } from "react-redux";
-import { selectTasks } from "../tasksSlice";
 
 function Tasks() {
   return (
