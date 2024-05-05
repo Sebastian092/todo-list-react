@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background:#e5e3e3;
+  background: #e5e3e3;
   font-family: 'Lato', sans-serif;
 }
 `
