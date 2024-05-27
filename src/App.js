@@ -1,6 +1,7 @@
-import Tasks from "./features/tasks/TasksPage";
+import TasksPage from "./features/tasks/TasksPage";
+import TaskPage from "./features/tasks/TaskPage";
 import { HashRouter, Link, Switch, Route, Redirect } from "react-router-dom";
-import Author from "./features/author/Author";
+import AuthorPage from "./features/author/AuthorPage";
 
 const App = () => {
     return (
@@ -15,11 +16,14 @@ const App = () => {
                     </li>
                 </ul>
                 <Switch>
+                <Route path="/orders/:id">
+                        <TaskPage />
+                    </Route>
                     <Route path="/orders">
-                        <Tasks />
+                        <TasksPage />
                     </Route>
                     <Route path="/author">
-                        <Author />
+                        <AuthorPage />
                     </Route>
                     <Route path="/">
                         <Redirect to="/orders" />
